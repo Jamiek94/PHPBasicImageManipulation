@@ -13,6 +13,6 @@ class PngImage extends AbstractImage
 
     function build() : void
     {
-        imagejpeg($this->resource, null, 100);
+        imagepng($this->resource, null, 9);
     }
 }
